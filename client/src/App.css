@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Dantina';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dantina'), url('https://fonts.cdnfonts.com/s/38889/Dantina-Lj5y.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+sectionthree {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+Link {
+  text-decoration: none !important;
+}
+a {
+  text-decoration: none !important;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+ 
+overlayytransition {
+  border-image: fill 0 linear-gradient(#0003,#111828); 
+}
+
+
+  .checkbox {
+    font-weight: normal;
+  }
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+  }
+
+  input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  @media only screen and (min-width: 768px){
+    .parent:hover .child {
+        opacity:1;
+        height:auto;
+        overflow:none;
+        transform: translateY(0);
+    }
+    .child {
+        opacity:0;
+        height:0;
+        overflow:hidden;
+        transform: translateY(-10%);
+    }
+}
+
+
+
+.container {
+  margin: 50px auto;
+}
+
+.card {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 25px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.card .fas.fa-arrow-right {
+  position: absolute;
+  bottom: -100px;
+  background-color: #4e9525;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: gold;
+  opacity: 0;
+  transform: translateY(50%);
+  transition: all 0.5s ease;
+}
+
+.card:hover .fas.fa-arrow-right {
+  bottom: 0px;
+  opacity: 1;
+}
+
+.card .fab.fa-envira,
+.fas.fa-cut,
+.fas.fa-people-carry {
+  font-size: 40px;
+  background-color: #0000000d;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #4e9525;
+}
+
+.card .h4 {
+  font-weight: 700;
+}
+
+.container .content {
+  max-width: 300px;
+}
+
+.container .content .h-6 {
+  color: #4e9525;
+  font-weight: 600;
+}
+
+.container .content .btn.btn-primary {
+  padding: 15px;
+  background-color: #4e9525;
+  color: white;
+  border-radius: 0px;
+  border: none;
+  box-shadow: none;
+}
+
+.card:hover .fab.fa-envira,
+.card:hover .fas.fa-cut,
+.card:hover .fas.fa-people-carry {
+  color: gold;
+  background-color: #4e9525;
+}
+
+@media (max-width:990px) {
+  .container .content {
+      max-width: 100%;
+  }
+}
+
+glass {
+  border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+}
+
+@media (max-width:500px) {
+  body {
+      padding: 25px;
+  }
+
+  .card {
+      width: 100%;
+  }
+
+  .content {
+      padding: 25px;
+  }
+}
+
+
+
